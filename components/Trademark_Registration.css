@@ -1,0 +1,120 @@
+/* SECTION BACKGROUND */
+.trademark_registration-protocol-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* CONTAINER */
+.trademark_registration-protocol-container {
+    max-width: 1200px;
+    width: 100%;
+    background: #f3f3f3;
+    border-radius: 22px;
+    padding: 40px 30px;
+}
+
+/* TITLE */
+.trademark_registration-protocol-container h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: black
+}
+
+.trademark_registration-protocol-container h2 span {
+    font-weight: 700;
+}
+
+/* GRID */
+.trademark_registration-protocol-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* CARD */
+.trademark_registration-card {
+    border-radius: 14px;
+    padding: 25px 20px;
+    color: #fff;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* ICON */
+.trademark_registration-card .icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+    height: 55px;
+    width: 55px;
+}
+
+
+/* TEXT */
+.trademark_registration-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.trademark_registration-card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* COLORS */
+.trademark_registration-card.blue {
+    background: linear-gradient(135deg, #2c2cff, #1a1abf);
+}
+
+.trademark_registration-card.red {
+    background: linear-gradient(135deg, #ff1e3c, #c4001d);
+}
+
+.trademark_registration-card.purple {
+    background: linear-gradient(135deg, #9c27ff, #6a00d1);
+}
+
+.trademark_registration-card.orange {
+    background: linear-gradient(135deg, #ff4d1c, #cc2f00);
+}
+
+/* RESPONSIVE */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .trademark_registration-protocol-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .trademark_registration-protocol-container {
+        padding: 25px 20px;
+    }
+
+    .trademark_registration-protocol-container h2 {
+        font-size: 24px;
+    }
+
+    .trademark_registration-protocol-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.trademark_registration-banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trademark_registration-banner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
