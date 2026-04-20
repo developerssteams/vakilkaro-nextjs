@@ -13,7 +13,7 @@ const StartupDocument = () => {
   return (
     <section className="startupdocument-section">
       <div className="startupdocument-container">
-        
+
         {/* LEFT SIDE - Heading wala part */}
         <div className="startupdocument-left">
           <h2>
@@ -25,7 +25,7 @@ const StartupDocument = () => {
           </p>
         </div>
 
-        {/* RIGHT SIDE - Tabs aur Pills wala part */}
+
         <div className="startupdocument-right">
           {/* Tabs */}
           <div className="startupdocument-tabs">

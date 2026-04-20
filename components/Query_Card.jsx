@@ -1,59 +1,64 @@
 import { useState, useEffect, useRef } from "react";
 import "./Query_Card.css";
 
+
 const cards = [
   {
-    title: "Certificates & Licenses",
+    title: "Business Launchpad (Registration & Startups)",
     tabs: [
-      { name: "GST Registration", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
-      { name: "ISO Certificate", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
-      { name: "FSSAI", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
-      { name: "ESI/EPF", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
-      { name: "Startup India", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
+      { name: "Pvt Ltd", link: "/business/page.tsx", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
+      { name: "LLP", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
+      { name: "OPC", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
+      { name: "Partnership", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
+      { name: "Proprietorship", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
     ]
   },
   {
-    title: "ISO Certificate",
+    title: "Empowering your mission with seambless NGO compliance.",
     tabs: [
-      { name: "GST Registration", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
-      { name: "ISO Certificate", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
-      { name: "FSSAI", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
-      { name: "ESI/EPF", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
-      { name: "Startup India", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
+      { name: "Secction 8", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
+      { name: "Trust", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
+      { name: "Society", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
+      { name: "12A/80G", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
+      { name: "CSR-1", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" },
+      { name: "NGO Darpan", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" },
+      { name: "FCRA", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
     ]
   },
   {
-    title: "FSSAI License",
+    title: "Shield your assets and stay compliant effortlessly.",
     tabs: [
-      { name: "GST Registration", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
-      { name: "ISO Certificate", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
-      { name: "FSSAI", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
-      { name: "ESI/EPF", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
-      { name: "Startup India", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
+      { name: "Trademark", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
+      { name: "Copyright", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
+      { name: "Design", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
+      { name: "Patent", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
+      { name: "Logo Design", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
     ]
   },
   {
-    title: "ESI / EPF",
+    title: "Finance Business",
     tabs: [
-      { name: "GST Registration", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
-      { name: "ISO Certificate", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
-      { name: "FSSAI", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
-      { name: "ESI/EPF", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
-      { name: "Startup India", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
+      { name: "Money Lending", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
+      { name: "Microfinance", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
+      { name: "Credit Co-operative Society", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
+      { name: "Insurance Marketing Firm", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
+      { name: "NBFC", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
     ]
   },
   {
-    title: "Startup India",
+    title: "Business Funding",
     tabs: [
-      { name: "GST Registration", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
-      { name: "ISO Certificate", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
-      { name: "FSSAI", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
-      { name: "ESI/EPF", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
-      { name: "Startup India", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
+      { name: "SME-IPO", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
+      { name: "Main Board-IPO", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
+      { name: "Pitch Deck", video: "https://www.youtube.com/embed/ysz5S6PUM-U" },
+      { name: "Business Valuation", video: "https://www.youtube.com/embed/jNQXAC9IVRw" },
+      { name: "Private Placement", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" },
+      { name: "ESOP", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" },
+      { name: "VC Funding", video: "https://www.youtube.com/embed/aqz-KE-bpKQ" }
     ]
   },
   {
-    title: "Legal Support",
+    title: "Certifications & Licenses ",
     tabs: [
       { name: "GST Registration", video: "https://www.youtube.com/embed/1hHMwLxN6EM" },
       { name: "ISO Certificate", video: "https://www.youtube.com/embed/tgbNymZ7vqY" },
@@ -72,33 +77,33 @@ const Query_Card = () => {
   const wrapperRef = useRef(null);
 
   // body scroll control
- const handleWheel = (e) => {
-  const isAtLastCard = active === cards.length - 1;
-  const isScrollingDown = e.deltaY > 0;
-  const isScrollingUp = e.deltaY < 0;
+  const handleWheel = (e) => {
+    const isAtLastCard = active === cards.length - 1;
+    const isScrollingDown = e.deltaY > 0;
+    const isScrollingUp = e.deltaY < 0;
 
-  // 🔥 only prevent scroll inside card area
-  if (
-    (!isAtLastCard && isScrollingDown) ||
-    (active > 0 && isScrollingUp)
-  ) {
-    e.preventDefault();
+    // 🔥 only prevent scroll inside card area
+    if (
+      (!isAtLastCard && isScrollingDown) ||
+      (active > 0 && isScrollingUp)
+    ) {
+      e.preventDefault();
 
-    if (animating) return;
+      if (animating) return;
 
-    if (isScrollingDown && active < cards.length - 1) {
-      setAnimating(true);
-      setActive((prev) => prev + 1);
-      setTimeout(() => setAnimating(false), 500);
+      if (isScrollingDown && active < cards.length - 1) {
+        setAnimating(true);
+        setActive((prev) => prev + 1);
+        setTimeout(() => setAnimating(false), 500);
+      }
+
+      if (isScrollingUp && active > 0) {
+        setAnimating(true);
+        setActive((prev) => prev - 1);
+        setTimeout(() => setAnimating(false), 500);
+      }
     }
-
-    if (isScrollingUp && active > 0) {
-      setAnimating(true);
-      setActive((prev) => prev - 1);
-      setTimeout(() => setAnimating(false), 500);
-    }
-  }
-};
+  };
 
   // 🔥 FIXED WHEEL EVENT
   useEffect(() => {
@@ -173,7 +178,7 @@ const Query_Card = () => {
                   <input type="email" placeholder="Email Address" />
                   <input type="text" placeholder="Phone Number" />
 
-                  <button className="submit-btn">
+                  <button className="submit-btn-query">
                     Submit Your Query
                   </button>
                 </div>

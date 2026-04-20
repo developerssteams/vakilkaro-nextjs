@@ -68,7 +68,7 @@ const LegalRepresentation = () => {
         {services.map((title, i) => (
           <div className="legal-card" key={i}>
             <div>
-              <h3 className="text-black" >{title}</h3>
+              <h4 className="texttitile">{title}</h4>
               <p>Lorem Ipsum is simply dummy text</p>
             </div>
 

@@ -2,10 +2,7 @@ import "./Trademark_Registration.css";
 // import ctaImg from "../assets/Banner.png";
 import { FiCheckCircle } from "react-icons/fi";
 import { FaUserTie, FaIdCard, FaCogs } from "react-icons/fa";
-// import consultation from "../assets/Icons/consult1.png";
-// import varification from "../assets/Icons/verification1.png";
-// import Execution from "../assets/Icons/Execution1.png";
-// import delivered from "../assets/Icons/delivered1.png";
+
 
 const CallToAction = () => {
     return (
@@ -16,7 +13,7 @@ const CallToAction = () => {
                     <img src="/Banner.png" alt="Banner" />
                 </div>
             </section>
-         
+
 
             {/* VERIFIED PROTOCOL SECTION */}
             <section className="trademark_registration-protocol-section">
@@ -31,7 +28,7 @@ const CallToAction = () => {
                         <div className="trademark_registration-card blue">
                             {/* <FaUserTie className="icon" /> */}
                             <img className="icon" src="/Icons/consult1.png" alt="" />
-                            
+
                             <h3>Consultation</h3>
                             <p>Talk to a real CA/CS/Vakil, not just a sales agent.</p>
                         </div>
