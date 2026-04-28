@@ -13,13 +13,11 @@ import Testimonials from "@/components/Testimonials";
 import ContactSection from "@/components/ContactSection";
 import Faq from "@/components/Faq";
 import TawkTo from "@/components/TawkTo";
-import Footer from "@/components/Footer";
 import "../app/globals.css";
-import Header from "@/components/Header";
 export default function Home() {
   return (
     <>
-      <Header />
+
       <Navbar />
       <VerifiedServices />
       <LegalRepresentation />
@@ -35,7 +33,7 @@ export default function Home() {
       <ContactSection />
       <Faq />
       <TawkTo />
-      <Footer />
+
     </>
   );
 }

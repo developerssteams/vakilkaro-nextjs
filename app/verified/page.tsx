@@ -12,13 +12,11 @@ import VerifiedServicescontent from "@/components/VerifiedServicescontent";
 import LeadershipSlider from "@/components/LeadershipSlider";
 import Navbar from "@/components/Navbar";
 import Navbar_Section from "@/components/Navbar_Section";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export default function Verified() {
     return (
         <>
-            <Header />
+           
             <Navbar_Section />
             <Query_Card />
             <Trademark_Registration />
@@ -34,7 +32,7 @@ export default function Verified() {
             <Faq />
 
             <TawkTo />
-            <Footer />
+           
         </>
     );
 }
