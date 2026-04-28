@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.h1{
+  color: white !important;
+}
 /* body {
    background: #212121;
   color: #fff;

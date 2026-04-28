@@ -7,10 +7,10 @@ const PvtServicescontent = () => {
 
             {/* LEFT CONTENT */}
             <div className="VerifiedServicescontent-left">
-                <h1>
+                <h1 className="h1">
                     Private Limited Company
                 </h1>
-                <h1 style={{ fontWeight: 'bold' }}>Registration in India</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Registration in India</h1>
                 <p>
                     Private Limited Company Registration in India is one of the most popular forms of business registration in India for startups, entrepreneurs, and growing businesses. If you are planning to register a company in India, choosing a Pvt Ltd Company Registration provides benefits such as limited liability, separate legal entity, and better funding opportunities.</p>
                 <p>
@@ -21,17 +21,17 @@ const PvtServicescontent = () => {
                 </p>
 
 
-                <h1>
+                <h1 className="h1">
                     What is a
                 </h1>
-                <h1 style={{ fontWeight: 'bold' }}>Private Limited Company?</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Private Limited Company?</h1>
                 <p>
                     A Private Limited Company is a company registered under the Companies Act, 2013 with the Ministry of Corporate Affairs (MCA). In a private limited company registration,the company is treated as a separate legal entity, which means the company and its owners are legally different.</p>
                 <p>
                     This type of company incorporation in Indai is suitable for startups,small businesses,IT companies,e-commerce sellers, consultants,and funded startups.
                 </p>
 
-                <h4>Key Features of private Limited Company Registration in India:</h4>
+                <h4 className="h1">Key Features of private Limited Company Registration in India:</h4>
 
                 <ul className="ul-li">
                     <li>Separate Legal Entity</li>
@@ -47,10 +47,10 @@ const PvtServicescontent = () => {
 
                 <p> Because ot these benefits, Private Limited Company Registration is considered the best structure for startup company registration in India.</p>
                 {/* Long Content */}
-                <h1>
+                <h1 className="h1">
                     Advantages of
                 </h1>
-                <h1 style={{ fontWeight: 'bold' }}>Private Limited Company?</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Private Limited Company?</h1>
                 <p>
                     There are many benfits of private limited company registraion in India,Which is why most enterpreneurse prefer Pvt Ltd company incorporation.</p>
                 <p>
@@ -85,10 +85,10 @@ const PvtServicescontent = () => {
                     Because of these advantages, private limited company registration in India is ideal for startups and growing businesses.
                 </p>
 
-                <h1>
+                <h1 className="h1">
                     Disadvantages of
                 </h1>
-                <h1 style={{ fontWeight: 'bold' }}>Private Limited Company?</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Private Limited Company?</h1>
                 <p>
                     Along with advantages, there are some disadvantages of private limited company:
                     <br />
@@ -105,7 +105,7 @@ const PvtServicescontent = () => {
                 </p>
                 <br /><br />
 
-                <h1 style={{ fontWeight: 'bold' }}>Private Limited vs LLP</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Private Limited vs LLP</h1>
                 <div className="comparison-table">
 
                     <div className="table-row table-header">
@@ -158,7 +158,7 @@ const PvtServicescontent = () => {
 
                 </div>
 
-                <h1 style={{ fontWeight: 'bold' }}>Private Limited vs OPC</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Private Limited vs OPC</h1>
                 <div className="comparison-table">
 
                     <div className="table-row table-header">
@@ -205,10 +205,10 @@ const PvtServicescontent = () => {
 
 
 
-                <h1>
+                <h1 className="h1">
                     Requirements for
                 </h1>
-                <h1 style={{ fontWeight: 'bold' }}>Pvt Ltd Registarion</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Pvt Ltd Registarion</h1>
                 <p>
                     For Private Limited Company Registration in India, the following requirements must be fulfilled: </p>
                 <ul className="ul-li">
@@ -221,7 +221,7 @@ const PvtServicescontent = () => {
                 </ul>
 
                 <p>These are mandatory for MCA company registration and company incorporation in India.</p>
-                <h1>Documents Required</h1>
+                <h1 className="h1">Documents Required</h1>
                 <p>Documents required for Pvt Ltd Company Registration:</p>
                 <p>Directors Documents:</p>
                 <ul className="ul-li">
@@ -241,7 +241,7 @@ const PvtServicescontent = () => {
                 </p>
                 <p>These documents are required for online company registration in India. </p>
 
-                <h1>Company Registration Process</h1>
+                <h1 className="h1">Company Registration Process</h1>
 
                 <p>
                     The Private Limited Company Registration Process in India is online through MCA portal using SPICe+ form
@@ -260,7 +260,7 @@ const PvtServicescontent = () => {
 
                 <p>This is the complete company incorporation process in India.</p>
 
-                <h1 style={{ fontWeight: 'bold' }}>Timeline for Registration</h1>
+                <h1 className="h1" style={{ fontWeight: 'bold' }}>Timeline for Registration</h1>
 
                 <div className="comparison-table">
                     <div className="table-row table-header">
@@ -300,7 +300,7 @@ const PvtServicescontent = () => {
                 <p>Vakilkaro provides fast private limited company registration in India within 7-10 working days.</p>
 
 
-                <h1>Pvt Ltd Company Registraion Fees</h1>
+                <h1 className="h1">Pvt Ltd Company Registraion Fees</h1>
 
                 <p>
                     The Pvt Ltd company registration fees in India  Depend on:
@@ -341,7 +341,7 @@ const PvtServicescontent = () => {
                 <br />
                 <p>Vakilkaro provides affordable private limited company registration fees with no hidden charges.</p>
 
-                <h1>Post Registraion Compliance</h1>
+                <h1 className="h1">Post Registraion Compliance</h1>
 
                 <p>After Private Limited Company Registration, the following ROC compliance are mandatory:</p>
 
@@ -357,7 +357,7 @@ const PvtServicescontent = () => {
 
                 <p>Vakilkaro provides complete post registration compliance support.</p>
 
-                <h1>Penalty for Non Compliance</h1>
+                <h1 className="h1">Penalty for Non Compliance</h1>
                 <p>if a company dose not complete ROC compliance,penalties may apply:</p>
                 <div className="comparison-table">
                     <div className="table-row table-header">

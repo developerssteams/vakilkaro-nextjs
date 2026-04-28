@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
-import "./Query_Card.css";
+// import "./Query_Card.css";
 
 
 const cards = [
@@ -93,6 +93,8 @@ const Query_Card = () => {
 
   useEffect(() => {
     const wrapper = wrapperRef.current;
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile) return;
 
     const handleWheel = (e) => {
       e.preventDefault();
@@ -190,7 +192,7 @@ const Query_Card = () => {
 
       <div className="video-section">
         <iframe
-          
+
           src={cards?.[active]?.tabs?.[activeTab]?.video || ''}
           title="video"
           frameBorder="0"
