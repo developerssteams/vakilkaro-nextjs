@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import "./VerifiedServices.css";
+// import "./VerifiedServices.css";
 
 const services = [
   { title: "Company Registration", color: "red" },

@@ -1,13 +1,14 @@
 import React from "react";
-import "./VerifiedServicescontent.css";
+// import "./VerifiedServicescontent.css";
 
 const VerifiedServicescontent = () => {
   return (
     <div className="VerifiedServicescontent-container">
-      
+
       {/* LEFT CONTENT */}
       <div className="VerifiedServicescontent-left">
-        <h1>
+
+        <h1 style={{ color: "white" }}>
           LLP Registration: A Strategic Path to Business Excellence
         </h1>
 
@@ -29,7 +30,7 @@ const VerifiedServicescontent = () => {
       {/* RIGHT SIDEBAR */}
       <div className="VerifiedServicescontent-right">
         <div className="VerifiedServicescontent-sidebar">
-          
+
           {/* BLOG 1 */}
           <div className="VerifiedServicescontent-blog-card">
             <img

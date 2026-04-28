@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import "./LegalRepresentation.css";
+// import "./LegalRepresentation.css";
 
 const services = [
   "Company Registration",

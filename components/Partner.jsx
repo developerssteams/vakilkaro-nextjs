@@ -1,4 +1,4 @@
-import "./Partner.css";
+// import "./Partner.css";
 const Partner = () => {
   return (
     <section className="partner-section">

@@ -1,5 +1,5 @@
 "use client";
-import "./Journey.css";
+// import "./Journey.css";
 
 const data = [
   { year: "2017", title: "Humble Beginnings\n& Pilot Launch", hover: "Started with a small idea 🚀", side: "left", color: "blue" },

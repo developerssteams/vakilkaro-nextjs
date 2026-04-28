@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar_Section.css";
+import Link from "next/link";
 
 function Navbar_Section() {
 
@@ -33,7 +34,9 @@ function Navbar_Section() {
                             <div className="menu-left">
 
                                 <div className="menu-column">
-                                    <p >Startup Registration</p>
+                                    <Link href="/Startupregistration">
+  <p>Startup Registration</p>
+</Link>
                                     <p>Private Limited Company</p>
                                     <p>Limited Liability Partnership</p>
                                     <p>One Person Company</p>
@@ -339,9 +342,6 @@ function Navbar_Section() {
                                 </div>
                             </div>
                         )}
-
-                        {/* baki bhi same pattern se add kar lena */}
-
                     </div>
                 )}
 

@@ -1,4 +1,4 @@
-import "./WhyVakilkaro.css";
+// import "./WhyVakilkaro.css";
 import { FiArrowUpRight } from "react-icons/fi";
 // import Icons1 from "Icons/1.png"; 
 // import Icons2 from "Icons/2.png"; 
